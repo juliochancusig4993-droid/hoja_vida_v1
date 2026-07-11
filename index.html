@@ -1,167 +1,861 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curriculum Vitae - JULIO CESAR CHANCUSIG CHICAIZA</title>
-    <style>
-        :root {
-            --primary-color: #2c3e50;
-            --secondary-color: #34495e;
-            --accent-color: #3498db;
-            --bg-color: #f5f6fa;
-            --text-color: #333;
-        }
-        * { box-sizing: border-box; margin: 0; padding: 0; }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: var(--bg-color); color: var(--text-color); line-height: 1.6; padding: 20px; }
-        .page { max-width: 1000px; margin: 0 auto; background: #fff; box-shadow: 0 0 15px rgba(0,0,0,0.1); border-radius: 8px; display: flex; flex-wrap: wrap; overflow: hidden; }
-        
-        .header { background: var(--primary-color); color: #fff; width: 100%; padding: 40px 30px; text-align: center; }
-        .header h1 { font-size: 2.2rem; margin-bottom: 5px; }
-        .header h2 { font-size: 1.1rem; font-weight: 300; color: #bdc3c7; margin-bottom: 10px; }
-        .header p { font-size: 0.95rem; margin-bottom: 5px; }
-        
-        .sidebar { background: var(--secondary-color); color: #ecf0f1; width: 33%; padding: 30px; }
-        .main-content { width: 67%; padding: 35px; }
-        
-        h3 { border-bottom: 2px solid var(--accent-color); padding-bottom: 5px; margin-bottom: 20px; color: var(--primary-color); font-size: 1.3rem; text-transform: uppercase; letter-spacing: 1px;}
-        .sidebar h3 { border-bottom-color: #7f8c8d; color: #fff; }
-        
-        /* Sidebar sections */
-        .contact-info, .skills-list, .education-list { margin-bottom: 35px; }
-        .contact-info p, .education-item p { margin-bottom: 10px; font-size: 0.95rem; }
-        .contact-info a { color: #3498db; text-decoration: none; }
-        .contact-info strong { display: block; color: #bdc3c7; font-size: 0.85rem; margin-top: 15px; text-transform: uppercase; letter-spacing: 0.5px;}
-        .skills-list ul { list-style: none; }
-        .skills-list li { background: rgba(255,255,255,0.1); margin-bottom: 8px; padding: 6px 12px; border-radius: 4px; font-size: 0.95rem; border-left: 3px solid var(--accent-color); }
-        
-        .education-item { margin-bottom: 20px; }
-        .education-item h4 { font-size: 1rem; color: #fff; margin-bottom: 3px; }
-        .education-item p { color: #bdc3c7; font-size: 0.85rem; }
-        
-        /* Main sections */
-        .section { margin-bottom: 35px; }
-        .profile-text { text-align: justify; font-size: 0.95rem; }
-        
-        .job, .course, .award { margin-bottom: 25px; }
-        .job h4, .course h4, .award h4 { font-size: 1.15rem; color: var(--primary-color); margin-bottom: 3px; }
-        .job .date-location, .course .date, .award .date { font-size: 0.85rem; color: #7f8c8d; font-style: italic; display: block; margin-bottom: 10px; }
-        .job ul { padding-left: 20px; font-size: 0.95rem; }
-        .job ul li { margin-bottom: 6px; }
-        
-        .references { display: flex; flex-wrap: wrap; gap: 20px; }
-        .reference-item { width: 45%; }
-        .reference-item h4 { font-size: 1rem; color: var(--primary-color); margin-bottom: 5px; }
-        .reference-item p { font-size: 0.9rem; line-height: 1.4; color: #555; }
-        
-        .signature { margin-top: 60px; text-align: center; }
-        .signature p { margin-top: 5px; font-size: 0.95rem; }
-        .signature .name { font-weight: bold; margin-top: 15px; color: var(--primary-color); }
-        
-        @media (max-width: 768px) {
-            .sidebar, .main-content { width: 100%; }
-        }
-    </style>
-</head>
-<body>
-    <div class="page">
-        <!-- Cabecera -->
-        <header class="header">
-            <h1>JULIO CESAR CHANCUSIG CHICAIZA</h1>
-            <h2>INGENIERO EN INFORMATICA Y SISTEMAS COMPUTACIONALES</h2>
-            <p>DNI: 0503454993 | 36 AÑOS - ECUATORIANO - SOLTERO</p>
-        </header>
-        
-        <!-- Columna Izquierda -->
-        <aside class="sidebar">
-            <div class="contact-info">
-                <h3>Contacto</h3>
-                
-                <strong>Email</strong>
-                <p>julio.chancusig4993@utc.edu.ec<br>july.acuario04@gmail.com</p>
-                
-                <strong>Teléfono</strong>
-                <p>+593 999013010<br>+593 2701136</p>
-                
-                <strong>Dirección</strong>
-                <p>Tanicuchi Centro</p>
-                
-                <strong>Redes Sociales</strong>
-                <p>@julyacuario<br>@julyacuario04</p>
-            </div>
-            
-            <div class="skills-list">
-                <h3>Habilidades</h3>
-                <ul>
-                    <li>Resolución de Problemas</li>
-                    <li>Adaptabilidad</li>
-                    <li>Ética de Trabajo</li>
-                    <li>Gestión del Tiempo</li>
-                    <li>Pensamiento Crítico</li>
-                    <li>Trabajo bajo Presión</li>
-                    <li>Liderazgo</li>
-                </ul>
-            </div>
-            
-            <div class="education-list">
-                <h3>Educación</h3>
-                <div class="education-item">
-                    <h4>INGENIERO EN INFORMATICA Y SISTEMAS COMPUTACIONALES</h4>
-                    <p>Universidad Técnica de Cotopaxi, Latacunga<br><em>2008 - 2013</em></p>
-                </div>
-            </div>
-        </aside>
-        
-        <!-- Columna Derecha -->
-        <main class="main-content">
-            <section class="section">
-                <h3>Perfil Profesional</h3>
-                <p class="profile-text">
-                    Tengo experiencia en el campo del tecnología en general. 
-                  </p>
-            </section>
-            
-            <section class="section">
-                <h3>Experiencia Laboral</h3>
-                <div class="job">
-                    <h4>Analista de Plataformas Software</h4>
-                    <span class="date-location">DIGERCIC</span>
-                    <ul>
-                        <li>Gestión de Proyectos y Resolución de Problemas.</li>
-                        <li>Implementación de Tecnologías.</li>
-                    </ul>
-                </div>
-                
-           </section>
-            
-            <section class="section">
-                <h3>Seminarios y Cursos</h3>
-                <div class="course">
-                    <h4>Mantenimiento preventivo</h4>
-                    <span class="date">Universidad Tecnica de Cotopaxi– 48 horas | Octubre, 2003</span>
-                </div>
-            </section>
-            
-           
-            <section class="section">
-                <h3>Referencias Personales</h3>
-                <div class="references">
-                    <div class="reference-item">
-                        <h4>Mg. Veronica Tapia</h4>
-                        <p>Directora Académica de la Facultad de Ingeniería y Ciencias Aplicadas<br>Universidad Técnica de Cotopaxi<br>Teléfono: +593 992952383</p>
-                    </div>
-                </div>
-            </section>
 
-            <div class="signature">
-                <p>……………………………………..…………</p>
-                <p class="name">JULIO CESAR CHANCUSIG CHICAIZA</p>
-                <p>DNI: 0503454993</p>
-                <p>Teléfono: +593 999013010</p>
-                <p style="font-size: 0.8rem; margin-top: 10px; color: #7f8c8d;">Firmado electrónicamente</p>
-            </div>
-            
-        </main>
-    </div>
+<head>
+
+<meta charset="UTF-8">
+
+<title>
+Julio César Chancúsig - Software Platform Engineer
+</title>
+
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+
+<style>
+
+
+body{
+
+margin:0;
+
+font-family:
+'Segoe UI',
+Arial;
+
+background:
+
+linear-gradient(
+135deg,
+#020617,
+#0f172a,
+#1e3a8a
+);
+
+color:#fff;
+
+padding:25px;
+
+}
+
+
+
+.cv{
+
+max-width:1150px;
+
+margin:auto;
+
+display:grid;
+
+grid-template-columns:
+
+320px 1fr;
+
+
+background:
+
+rgba(15,23,42,.95);
+
+
+border-radius:25px;
+
+
+overflow:hidden;
+
+
+box-shadow:
+
+0 0 50px #00e5ff55;
+
+
+animation:
+
+entrada 1s;
+
+}
+
+
+
+@keyframes entrada{
+
+
+from{
+
+opacity:0;
+
+transform:
+translateY(50px);
+
+}
+
+
+to{
+
+opacity:1;
+
+}
+
+
+}
+
+
+
+/* PERFIL */
+
+.left{
+
+
+background:
+
+linear-gradient(
+
+180deg,
+
+#020617,
+
+#0c4a6e
+
+);
+
+
+padding:35px;
+
+
+}
+
+
+
+.logo{
+
+
+width:130px;
+
+height:130px;
+
+border-radius:50%;
+
+
+margin:auto;
+
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+
+font-size:60px;
+
+
+background:
+
+linear-gradient(
+
+45deg,
+
+#06b6d4,
+
+#8b5cf6
+
+);
+
+
+box-shadow:
+
+0 0 35px #06b6d4;
+
+
+}
+
+
+
+
+h1{
+
+
+font-size:26px;
+
+color:#67e8f9;
+
+text-align:center;
+
+}
+
+
+
+.subtitle{
+
+
+text-align:center;
+
+color:#cbd5e1;
+
+}
+
+
+
+.data{
+
+
+margin-top:30px;
+
+line-height:2;
+
+
+}
+
+
+
+i{
+
+color:#22d3ee;
+
+}
+
+
+
+.skill{
+
+
+margin-top:20px;
+
+}
+
+
+
+.progress{
+
+
+height:10px;
+
+background:#111827;
+
+border-radius:20px;
+
+
+}
+
+
+
+.progress span{
+
+
+display:block;
+
+height:100%;
+
+
+background:
+
+linear-gradient(
+
+90deg,
+
+#06b6d4,
+
+#8b5cf6
+
+);
+
+
+border-radius:20px;
+
+
+}
+
+
+
+.cloud{
+
+width:90%;
+
+}
+
+
+.devops{
+
+width:85%;
+
+}
+
+
+.arch{
+
+width:90%;
+
+}
+
+
+
+
+
+/* CONTENIDO */
+
+
+.right{
+
+
+padding:40px;
+
+
+}
+
+
+
+h2{
+
+
+color:#67e8f9;
+
+
+border-bottom:
+
+2px solid #06b6d4;
+
+
+padding-bottom:10px;
+
+
+}
+
+
+
+.card{
+
+
+background:
+
+rgba(255,255,255,.07);
+
+
+border:
+
+1px solid #334155;
+
+
+padding:20px;
+
+
+margin:20px 0;
+
+
+border-radius:15px;
+
+
+backdrop-filter:
+
+blur(10px);
+
+
+transition:.4s;
+
+
+}
+
+
+
+.card:hover{
+
+
+transform:
+
+translateX(10px);
+
+
+border-color:#22d3ee;
+
+
+}
+
+
+
+
+.tech{
+
+
+display:inline-block;
+
+
+padding:8px 15px;
+
+
+margin:5px;
+
+
+border-radius:20px;
+
+
+background:
+
+linear-gradient(
+
+45deg,
+
+#2563eb,
+
+#9333ea
+
+);
+
+
+}
+
+
+
+
+.print{
+
+
+position:fixed;
+
+
+right:25px;
+
+
+top:25px;
+
+
+padding:15px 25px;
+
+
+border-radius:30px;
+
+
+border:0;
+
+
+background:#06b6d4;
+
+
+color:white;
+
+
+cursor:pointer;
+
+
+}
+
+
+
+@media print{
+
+
+.print{
+
+display:none;
+
+}
+
+}
+
+
+
+</style>
+
+
+<script>
+
+function imprimir(){
+
+window.print();
+
+}
+
+</script>
+
+
+</head>
+
+
+<body>
+
+
+<button class="print"
+onclick="imprimir()">
+
+<i class="fa fa-print"></i>
+
+Imprimir
+
+</button>
+
+
+
+<div class="cv">
+
+
+
+<div class="left">
+
+
+
+<div class="logo">
+
+<i class="fa fa-cloud"></i>
+
+</div>
+
+
+<h1>
+
+Julio César<br>
+
+Chancúsig
+
+</h1>
+
+
+<div class="subtitle">
+
+Ingeniero de Plataformas<br>
+
+de Software
+
+</div>
+
+
+
+<div class="data">
+
+
+<p>
+
+<i class="fa fa-envelope"></i>
+
+july_acuario04@hotmail.com
+
+</p>
+
+
+<p>
+
+<i class="fa fa-phone"></i>
+
+0999013010
+
+</p>
+
+
+<p>
+
+<i class="fa fa-location-dot"></i>
+
+Latacunga Ecuador
+
+</p>
+
+
+
+</div>
+
+
+
+<h3>
+
+Competencias
+
+</h3>
+
+
+
+<div class="skill">
+
+Arquitectura Software
+
+<div class="progress">
+
+<span class="arch"></span>
+
+</div>
+
+</div>
+
+
+
+<div class="skill">
+
+Cloud & Plataformas
+
+<div class="progress">
+
+<span class="cloud"></span>
+
+</div>
+
+</div>
+
+
+
+<div class="skill">
+
+DevOps
+
+<div class="progress">
+
+<span class="devops"></span>
+
+</div>
+
+</div>
+
+
+
+</div>
+
+
+
+<div class="right">
+
+
+<h2>
+
+<i class="fa fa-terminal"></i>
+
+Perfil Profesional
+
+</h2>
+
+
+<div class="card">
+
+
+Ingeniero en Informática y Sistemas Computacionales
+con experiencia en diseño, administración y soporte
+de plataformas tecnológicas, infraestructura de software,
+redes empresariales y soluciones informáticas.
+
+
+</div>
+
+
+
+<h2>
+
+<i class="fa fa-layer-group"></i>
+
+Especialidad Técnica
+
+</h2>
+
+
+<div class="card">
+
+
+<span class="tech">
+
+Arquitectura Software
+
+</span>
+
+
+<span class="tech">
+
+APIs
+
+</span>
+
+
+<span class="tech">
+
+Bases de Datos
+
+</span>
+
+
+<span class="tech">
+
+Redes
+
+</span>
+
+
+<span class="tech">
+
+Java
+
+</span>
+
+
+<span class="tech">
+
+Sistemas Operativos
+
+</span>
+
+
+<span class="tech">
+
+Cloud
+
+</span>
+
+
+</div>
+
+
+
+<h2>
+
+<i class="fa fa-briefcase"></i>
+
+Experiencia
+
+</h2>
+
+
+<div class="card">
+
+
+<b>
+
+Cuerpo de Ingenieros del Ejército
+
+</b>
+
+
+<br>
+
+Administrador de Plataforma Tecnológica
+
+
+<ul>
+
+<li>
+Gestión de infraestructura informática.
+</li>
+
+<li>
+Administración de servicios tecnológicos.
+</li>
+
+<li>
+Soporte de plataformas empresariales.
+</li>
+
+<li>
+Gestión de redes y conectividad.
+</li>
+
+
+</ul>
+
+
+</div>
+
+
+
+<div class="card">
+
+
+<b>
+
+Universidad Metropolitana del Ecuador
+
+</b>
+
+
+<br>
+
+Docente Ingeniería Informática
+
+
+<ul>
+
+<li>
+Arquitectura de Computadores.
+</li>
+
+<li>
+Sistemas Operativos.
+</li>
+
+<li>
+Workflow.
+</li>
+
+</ul>
+
+
+</div>
+
+
+
+
+<h2>
+
+<i class="fa fa-graduation-cap"></i>
+
+Formación
+
+</h2>
+
+
+<div class="card">
+
+
+Ingeniero en Informática y Sistemas Computacionales
+
+<br>
+
+Universidad Técnica de Cotopaxi
+
+<br>
+
+2013
+
+
+</div>
+
+
+
+<h2>
+
+<i class="fa fa-code"></i>
+
+Perfil Tecnológico
+
+</h2>
+
+
+<div class="card">
+
+
+✔ Diseño de plataformas software
+
+<br>
+
+✔ Administración de infraestructura
+
+<br>
+
+✔ Integración de sistemas
+
+<br>
+
+✔ Gestión tecnológica empresarial
+
+<br>
+
+✔ Automatización de procesos
+
+<br>
+
+✔ Soporte de aplicaciones
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
 </body>
+
 </html>
